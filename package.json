@@ -1,5 +1,5 @@
 {
-  "name": "@playwind/com.google.firebase.messaging",
+  "name": "com.google.firebase.messaging",
   "version": "9.0.0",
   "displayName": "Firebase Cloud Messaging",
   "keywords": [
@@ -10,23 +10,14 @@
     "vh-name:FirebaseMessaging",
     "vh-name:Firebase Cloud Messaging"
   ],
-  "author": "Google LLC (https://firebase.google.com/docs/cloud-messaging/unity/client)",
+  "author": {
+    "name": "Google LLC",
+    "url": "https://firebase.google.com/docs/cloud-messaging/unity/client"
+  },
   "description": "Send targeted messages and notifications.\n\nCloud Messaging gives you a reliable and battery-efficient way to send messages and notifications across platforms. You can target your messages to certain segments of players and customize them to suit your game's brand. You can also gauge their effectiveness with statistics like click rate, open rate, and the downstream effect on conversions.",
   "unity": "2017.1",
   "dependencies": {
     "com.google.firebase.app": "9.0.0"
   },
-  "license": "Apache-2.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xinatcg/GoogleFirebaseMessaging.git"
-  },
-  "bugs": {
-    "url": "https://github.com/xinatcg/GoogleFirebaseMessaging/issues"
-  },
-  "homepage": "https://github.com/xinatcg/GoogleFirebaseMessaging#readme"
+  "license": "Apache-2.0"
 }
